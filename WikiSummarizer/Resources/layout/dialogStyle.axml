@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:background="@drawable/ButtonStyle2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:text="Trimm" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="306.1dp"
+        android:id="@+id/editText3"
+        android:background="@drawable/TextViewStyle"
+        android:layout_margin="5dp"
+        android:textColor="#ff000000"
+        android:hint="Insert Text Here To Summarize..."
+        android:typeface="monospace"
+        android:textSize="13dp" />
+    <TextView
+        android:text="Thank You For Using WikiSum"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="#ff8b8b8b"
+        android:typeface="monospace"
+        android:layout_gravity="center" />
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_margin="3dp"
+        android:background="@drawable/ButtonStyle2"
+        android:visibility="invisible" />
+</LinearLayout>

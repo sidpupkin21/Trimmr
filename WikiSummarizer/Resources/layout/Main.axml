@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:weightSum="100">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="43.6dp"
+        android:id="@+id/editText1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/TextViewStyle"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:textColor="#ff000000"
+        android:typeface="normal"
+        android:hint="Search"
+        android:layerType="none"
+        android:scrollbars="vertical" />
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="fill_parent"
+        android:layout_height="44.8dp"
+        android:text="Find"
+        android:background="@drawable/ButtonStyle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="248.1dp"
+        android:id="@+id/editText2"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/TextViewStyle"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:textColor="#ff000000"
+        android:typeface="normal"
+        android:layerType="none"
+        android:layout_weight="30"
+        android:scrollbars="vertical"
+        android:hint="Summarized text will appear here..."
+        android:editable="false" />
+    <Button
+        android:text="Text Trimmr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ButtonStyle2" />
+    <ProgressBar
+        android:layout_width="364.6dp"
+        android:layout_height="61.1dp"
+        android:id="@+id/progressBar1"
+        android:background="#ffffffff"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+    <TextView
+        android:text="Loading..."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="#ff240c0c"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+</LinearLayout>
